@@ -1,0 +1,110 @@
+*{
+    margin-top: 0%;
+    margin: 0%;
+}
+.boton {
+    display: inline-block;
+    width: 19vw;
+    height: 50px;
+    cursor: pointer;
+    transition:background-color 1s; 
+    background-color: rgb(231, 84, 16);
+    border-radius: 15px;
+}
+.boton:hover {
+    background-color: #05E31E;
+}
+.boton p {
+    text-align: center;
+    font-size: 1em; font-weight:bold;color: antiquewhite;
+    line-height: 7vh;
+    font-weight: bold;
+    font-size: large;
+}
+header{
+    background-color: black;
+    color: white;
+    border-color: black;
+    line-height: 12vh;
+    margin-bottom: 0%;
+}
+nav{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+footer{
+    position:fixed;
+    left: 20%;
+    bottom: 5%;
+}
+.enLinea{
+    display: inline-block;
+    margin-left: 50px;
+}
+article{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 10px;
+    width: 50%;
+    align-content: justify;
+}
+.divDerecho{
+    display: inline-block;
+    vertical-align: auto;
+    margin-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 25px;
+    height: fit-content;
+    width: 45%;
+}
+#img1{
+    width: 600px;
+    height: 320px;
+}
+.imgBici{
+    width: 280px;
+    height: 170px;
+    transition: .5s;
+    border-radius: 10px;
+    margin: 5px;
+}
+.imgBici:hover{
+    transform: scale(1.5);
+}
+.imgAccesorio{
+    width: 250px;
+    height: 200px;
+    transition: .5s;
+    border-radius: 10px;
+    margin: 5px;
+}
+.imgAccesorio:hover{
+    transform: scale(1.5);
+}
+.info{
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.video{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 60px;
+}
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#rueda{
+    border-radius: 180px;
+    animation: girar 2s linear infinite;
+}

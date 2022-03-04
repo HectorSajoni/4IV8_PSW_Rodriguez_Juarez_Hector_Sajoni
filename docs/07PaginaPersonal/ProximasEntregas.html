@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximas entregas</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Validacion.js"></script>
+</head>
+<body>
+    <header>
+        <center><h1>SajoBicis Próximas entregas</h1></center>
+    </header>
+    <nav>
+        <div class="boton"><a href="index.html" style="text-decoration:none"><p>Quienes somos</p></a></div>
+        <div class="boton"><a href="QueHacemos.html" style="text-decoration:none"><p>Que hacemos</p></a></div>
+        <div class="boton"><a href="QueVendemos.html" style="text-decoration:none"><p>Que vendemos</p></a></div>
+        <div class="boton"><a href="ProximasEntregas.html" style="text-decoration:none"><p>Proximas entregas</p></a></div>
+        <div class="boton"><a href="https://www.google.com/maps/place/Centro+de+Estudios+Cient%C3%ADficos+y+Tecnol%C3%B3gicos+N%C2%B0+9+%22Juan+de+Dios+B%C3%A1tiz%22+IPN/@19.4554358,-99.1840779,15z/data=!3m1!4b1!4m5!3m4!1s0x85d1f8bd9777a765:0x57501a5479751d18!8m2!3d19.4554158!4d-99.1753232" style="text-decoration:none"><p>Contacto</p></a></div>
+    </nav>
+    <section>
+        <article>
+            <div class="container-form">
+                <form method="post" name="formulario" onsubmit="return validar(this)"  action="">
+                    <p>¿Quieres que te mandemos notifiquemos acerca de los nuevos productos que 
+                        vamos lanzando? llena tus datos en el siguiente formulario para que 
+                        tengamos tu contacto y te avisemos cuando salga a la venta un nuevo artículo!
+                    </p>
+                    <br>
+                    <label> Nombre: </label> 
+                    <br>
+                    <input type="text" name="nombre" id="nombre" >
+                    <br><br>
+                    <label> Teléfono: </label> 
+                    <br>
+                    <input type="text" name="telefono" id="telefono" >
+                    <br><br>
+                    <label> Email: </label> 
+                    <br>
+                    <input type="email" name="email" id="email" >
+                    <br><br>
+                    <input type="submit" name="enviar" value="Enviar Datos">
+                    <br><br>
+                    <input type="reset" name="borrar" value="Borrar Datos" >
+                </form>
+            </div>
+        </article>
+        <div class="divDerecho">
+            <h3>En esta sección podrás ver los nuevos productos que vayamos lanzando</h3>
+            <center><img width="400" height="400" src="https://us.123rf.com/450wm/lavretiev/lavretiev1510/lavretiev151000004/46634692-vector-illustration-bicycle-wheel-on-a-white-background.jpg" alt="rueda" id="rueda"></center>
+            <h4>Nuestros creativos están trabajando...</h4>
+        </div>
+    </section>
+    <footer>
+        <div class="enLinea"><h2>Creado por Héctor Sajoni Rodríguez Juárez</h2></div>
+        <div class="enLinea"><h2>3IV8</h2></div>
+        <div class="enLinea"><h2>Sección B</h2></div>
+    </footer>
+</body>
+</html>
