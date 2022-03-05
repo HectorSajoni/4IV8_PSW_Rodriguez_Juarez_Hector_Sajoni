@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Tabla</title>
+    <script src="Tabla.js"></script>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <center><h1>Tabla dinámica</h1></center>
+    </header>
+    <div class="container-form">
+        <form metdod="post" name="formulario" 
+        onreset="return validar(this)" action="">
+            <br>
+            <p>
+                <br>
+                <label for="costoCarro">Valor del automóvil</label>
+                <input type="text" name="" id="costoCarro">
+                <br><br>
+                <label for="cuotaInicial">Cuota inicial</label>
+                <input type="text" id="cuotaInicial">
+                <br><br>
+                <label for="periodo">Periodo </label>
+                <select name="select" id="meses">
+                    <option value="3" selected>3</option>
+                    <option value="6">6</option>
+                    <option value="9">9</option>
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                </select>
+                <label for="periodo"> meses</label>
+                <br><br>
+            </p>
+            <input type="reset" name="Calcular" value="Calcular" id="Calcular">
+        </form>
+    </div>
+    <div class="laTabla">
+        <table id="lista-tabla" class="table">
+                <tr>
+                    <td class="non">Monto total</td>   
+                    <td id="montoTotal" class="par"></td>
+                </tr>
+                <tr>
+                    <td class="par">Monto pagado</td>
+                    <td id="montoPagado" class="non"></td>
+                </tr>
+                <tr>
+                    <td class="non">Monto pendiente</td>
+                    <td id="montoPendiente" class="par"></td>
+                </tr>
+                <tr>
+                    <td class="par">Plazo en meses</td>
+                    <td id="plazoMeses" class="non"></td>
+                </tr>
+                <tr>
+                    <td class="non">Taza de interés</td>
+                    <td id="tazaInteres" class="par"></td>
+                </tr>
+                <tr>
+                    <td class="par">Capital futuro</td>
+                    <td id="capitalFuturo" class="non"></td>
+                </tr>
+        </table>
+    </div>
+    <footer>
+        <center><h2>Héctor Sajoni Rodríguez Juárez &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4IV8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sección B</h2></center>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.container-form
+{
+    display: inline-block;
+    margin-left: 160px;
+    margin-right: 30px;
+}
+.laTabla
+{
+    display: inline-block;
+    margin-top: 80px;
+}
+body
+{
+    background-color: rgb(156, 166, 185);
+}
+table
+{
+    margin: 5px;
+}
+.non
+{
+    background-color: #5cb66f;
+    height: 25px;
+    width: 180px;
+}
+.par
+{
+    background-color: #6ae985;
+    width: 180px;
+    height: 25px;
+}
+input
+{
+    font-size: large;
+}
+label
+{
+    color: rgb(95, 0, 0);
+    font-size: large;
+}
+footer
+{
+    left: 20%;
+    margin-top: 18%;
+}
