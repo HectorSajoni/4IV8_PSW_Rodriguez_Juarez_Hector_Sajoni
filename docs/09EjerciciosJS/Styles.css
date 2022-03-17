@@ -1,0 +1,36 @@
+body
+{
+    font-size: medium;
+    margin: 80px;
+    margin-top: 30px;
+    margin-bottom: 120PX;
+    background-color: rgb(86, 163, 252);
+    text-align: justify;
+}
+form
+{
+    font-size: 20px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+hr
+{
+    height: 5px;
+    border-color: black;
+    background-color: black;
+}
+input
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+h1
+{
+    text-align: center;
+}
+footer
+{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}

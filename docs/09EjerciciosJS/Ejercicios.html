@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body> 
+    <h1>Ejercicios JS</h1>
+    <h2 class="problema-title">
+        1. Inivertes tu capital en un banco y deseas saber cuanto ganarás después de un 
+        mes si el interés es de 2% mensual
+    </h2>
+    <form class="problema-container" name="problema1">  
+        <label for="input1"><em>Capital</em></label>
+        <input type="number" name="input1">
+        <input type="button" value="calcular" onclick="ejercicio1()"><br><br>
+        <label for="output1"><em>Retorno</em></label>
+        <input type="number" name="output1"><br><br>
+        <input type="reset" value="borrar"><br><br><hr>
+    </form>
+    <h2 class="problema-title">
+        2. Recibes un sueldo base más un 10% de comisión por tus ventas, deseas saber cuanto dinero obtendrás por concepto de comisiones por las tres ventas que realizas en el mes y el total que recibirás tomando en cuenta tu sueldo base y comisiones
+    </h2>
+    <form class="problema-container" name="problema2">
+        <label for="input1"><em>Sueldo base</em></label>
+        <input type="number" name="input1">
+        <input type="button" value="calcular" onclick="ejercicio2()"><br><br>
+        <label for="output1"><em>Total</em></label>
+        <input type="number" name="output1"><br><br>
+        <input type="reset" value="borrar"><br><br><hr>
+    </form>
+    <h2 class="problema-title">
+        3. Una tienda te ofrece un descuento del 15% sobre el total de tu compra y quieres saber cuanto pagarás por el total de la compra
+    </h2>
+    <form class="problema-container" name="problema3">
+        <label for="input1"><em>Precio de la compra</em></label>
+        <input type="number" name="input1">
+        <input type="button" value="calcular" onclick="ejercicio3()"><br><br>
+        <label for="output1"><em>Precio con descuento</em></label>
+        <input type="number" name="output1"><br><br>
+        <input type="reset" value="borrar"><br><br><hr>
+    </form>
+    <h2 class="problema-title">
+        4. Un alumno desea saber su calificación final en la materia de algoritmos. dicha calificación se compone de los siguientes porcentajes: <br><br>
+        55% del promedio de sus tres calificaciones parciales <br>
+        30% de la calificacion del examen final <br>
+        15% de la calificacion de un trabajo final
+    </h2>
+    <form class="problema-container" name="problema4">
+        <label for="input1"><em>Promedio de parciales</em></label>
+        <input type="number" name="input1"><br>
+        <label for="input2"><em>Examen final</em></label>
+        <input type="number" name="input2"><br>
+        <label for="input3"><em>Trabajo final</em></label>
+        <input type="number" name="input3"><br>
+        <input type="button" value="calcular" onclick="ejercicio4()"><br><br>
+        <label for="output1"><em>Calificacion final</em></label>
+        <input type="number" name="output1"><br><br>
+        <input type="reset" value="borrar"><br><br><hr>
+    </form>
+    <h2 class="problema-title">
+        5. Un maestro desea saber el porcentaje de hombres y mujeres que hay en un 
+        grupo de estudiantes
+    </h2>
+    <form class="problema-container" name="problema5">
+        <label for="input1"><em>Cantidad de hombres</em></label>
+        <input type="number" name="input1"><br>
+        <label for="input2"><em>Cantidad de mujeres</em></label>
+        <input type="number" name="input2"><br>
+        <input type="button" value="calcular" onclick="ejercicio5()"><br><br>
+        <label for="output1"><em>porcentaje de hombres</em></label>
+        <input type="number" name="output1"><br><br>
+        <label for="output2"><em>porcentaje de mujeres</em></label>
+        <input type="number" name="output2"><br><br>
+        <input type="reset" value="borrar"><br><br><hr>
+    </form>
+    <h2 class="problema-title">
+        6. Un algoritmo que calcule tu edad
+    </h2>
+    <form class="problema-container" name="problema6">
+        <label for="input1"><em>Fecha de nacimiento</em></label>
+        <input type="date" name="fecha">
+        <input type="button" value="calcular" onclick="ejercicio6()"><br><br>
+        <label for="output1"><em>Años</em></label>
+        <input type="number" name="output1"><br><br>
+        <label for="output2"><em>Meses</em></label>
+        <input type="number" name="output2"><br><br>
+        <label for="output3"><em>Dias</em></label>
+        <input type="number" name="output3"><br><br>
+        <input type="reset" value="borrar">
+    </form>
+    <script src="Script.js"></script>
+    <footer>
+        Héctor Sajoni Rodríguez Juárez <br>
+        4IV8
+    </footer>
+</body>
+</html>
