@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iniciar sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya estas registrado?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿Aún no estas registrado?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <a href="Registrar.html"><button id="btn__registrarse">Regístrarse</button></a>
+                    </div>
+                </div>
+
+
+                <div class="contenedor__login-register">
+                    <form action="Ingresar" method="post" class="formulario__login" id="f1">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="text" placeholder="boleta" name="boleta"><br><br>
+                        <input type="text" placeholder="contraseña" name="password"><br><br>
+                        <button type="submit" class="formulario__btn">Entrar</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
